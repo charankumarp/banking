@@ -14,6 +14,7 @@ app.use('/internetbanking', internetbanking)
 app.use('/loan', loan)
 app.use('/shopping', shopping)
 app.use('/creditcard', creditcard)
+// Jnanedra added this line
 // router.use('/electronics', fashionHandler)
 // router.use('/grocery', fashionHandler)
 // router.use('/mobile', fashionHandler)
