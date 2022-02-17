@@ -8,16 +8,10 @@ const creditcard = require('./routes/creditcard/creditcard.js')
 
 
 app.use(express.static("public"));
-
-
 app.use('/internetbanking', internetbanking)
 app.use('/loan', loan)
 app.use('/shopping', shopping)
 app.use('/creditcard', creditcard)
-// Jnanedra added this line
-// router.use('/electronics', fashionHandler)
-// router.use('/grocery', fashionHandler)
-// router.use('/mobile', fashionHandler)
 
 const port = process.env.PORT || 8080;
 
